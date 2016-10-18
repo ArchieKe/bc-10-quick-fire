@@ -1,0 +1,33 @@
+{"name": "theworld",
+"time_allocated":20,
+"questions":[
+    {"q_text":"Which of these words means the granting of powers from central government to government at a lower level?",
+     "options": {"a":"Depravity","b":"Dissention", "c":"Devolution", "d":"Dissolution"},
+     "is_answer": "c"
+    },
+
+    {
+    "q_text":"Who is the richest man to ever liveth?",
+    "options":{"a":"Sonko", "b":"King Kabaka", "c":"Kimani", "d":"Mansa Musa"},
+    "is_answer": "d"
+    },
+
+    {
+    "q_text":"How many countries belong to the World Bank?",
+    "options":{"a":"All", "b":"54", "c":"189", "d":"200"},
+    "is_answer": "c"
+    },
+
+    {
+    "q_text":"What technology was used to build the pyramids of Giza?",
+    "options":{"a":"Common sense", "b":"None", "c":"State of the art", "d":"I wasn't born"},
+    "is_answer": "a"
+    },
+
+    {
+    "q_text":"What is the state capital of Chad?",
+    "options":{"a":"Djamena", "b":"Omulokoma", "c":"Chad's capital", "d":"None"},
+    "is_answer": "a"
+    }
+]
+}

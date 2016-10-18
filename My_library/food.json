@@ -1,0 +1,15 @@
+{"q1": 
+{
+"is_answer": "b", "options": {"a": "Africans", "b": "Aztecs", "c": "Indians"}, "q_text": "Europeans first learned of chocolate from whom?"
+},
+
+ "q2": 
+ {
+ "is_answer": "a", "options": {"a": " fat", "b": "flinty", "c": "leggy", "d": "vigorous"}, 
+ "q_text": "Which of the following is not a favorable adjective when discussing wine?"
+},
+
+ "q3": 
+ {
+ "is_answer": "a", "options": {"a": "China", "b": "US", "c": "Ireland", "d": "Russia"}, "q_text": "What country produces the most potatoes?"}
+ }

@@ -1,0 +1,26 @@
+{"name": "People&Places",
+"questions":[
+    {"q_text":"What African country is the Central Kalahari Game Reserve located in?",
+     "options": {"a":"Botswana","b":"Nigeria", "c":"South Africa", "d":"Kenya"},
+     "is_answer": "a"
+    },
+
+    {
+    "q_text":"Jack the Ripper terrorized what city in the 19th century?",
+    "options":{"a":"Belfast", "b":"London ", "c":" New York", "d":"San Francisco"},
+    "is_answer": "b"
+    },
+
+    {
+    "q_text":"By the time Nelson Mandela was freed in 1990, how long had he been in prison?",
+    "options":{"a":"7 years", "b":"17 years", "c":"27 years", "d":"37 years"},
+    "is_answer": "c"
+    },
+
+    {
+    "q_text":"What city has served twice as host of the modern Winter Olympic Games?",
+    "options":{"a":"Innsbruck, Austria", "b":"Lake Placid, New York", "c":"St. Moritz, Switzerland", "d":"all of the above"},
+    "is_answer": "d"
+    }
+]
+}
