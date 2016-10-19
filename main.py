@@ -55,22 +55,24 @@ def quiz_take(quiz_name):
       ans = raw_input('\nEnter your answer:').lower()
       while ans not in ['a','b', 'c', 'd']:
         ans = raw_input('\nwrong input. Try again:').lower()
-      break
       if ans == current_quiz[key]['is_answer']:
         print'Correct!'
         score += 5
         done_questions += 1
-      elif ans != current_quiz[key]['is_answer']:
+      else:
         print 'Wrong!'
-     
+      break  
+          # elif ans != current_quiz[key]['is_answer']:
+        
       
-  final_score = str((score/(all_questions*5))*100)
+      
+  final_score = score
   print "Time's Up!!"
   time.sleep(5)
   print 'All questions:' + str(all_questions)
   print 'Attempted questions:' + str(done_questions)
-  print 'You scored:' + final_score  + '%'
-
+  print 'You scored: {0}'.format(score)
+ 
             
 
 
