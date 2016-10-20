@@ -1,0 +1,20 @@
+{
+
+	"q1":
+    {"q_text":"What was Walt Disney's Mickey Mouse's original name?",
+     "options": {"a":"Manville","b":"Melvin", "c":"Mortimer"},
+     "is_answer": "c"
+    },
+	"q2":
+    {
+    "q_text":"Which of the following entertainers was the highest paid for the two years 1988 and 1989?",
+    "options":{"a":" Bill Cosby", "b":"Michael Jackson", "c":"Madonna"},
+    "is_answer": "b"
+    },
+	"q3"
+    {
+    "q_text":"Which actor starred in The Color of Money?",
+    "options":{"a":"Tom  Berenger", "b":"Tom Cruise", "c":"Tom Hanks"},
+    "is_answer": "b"
+    }
+}
