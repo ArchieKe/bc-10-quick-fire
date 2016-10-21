@@ -36,8 +36,7 @@ This is a quiz console application that presents a quiz to a user and a score is
 
 To be able to get this project to your local machine
 
-1.First git clone this project at https://github.com/ArchieKe/bc-10-quick-fire.git
-
+1.First git clone this project at https://github.com/ArchieKe/bc-10-quick-fire/tree/master
 2.Navigate to the bc-10-quick-fire folder.
 
 3.Create a virtual environment using the virtualenv command and activate it.
