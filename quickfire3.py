@@ -194,6 +194,26 @@ def quick_fire_bridge():
     print red('\tNo choice made')
   else:
     main(option)
+def help():
+  print green('\n\tHere are your options.')
+
+  print(yellow(""" 
+
+            Welcome to Quick Fire
+            -----------------------
+            Here are your options today
+
+            1. quizlist - Gets a list of all quizzes in the global library
+            2. quizimport - Imports a specific quiz from the library
+            3. myquizlist - Displays the quizzes already imported
+            4. quiztake <quiz name> - Begins the specific quiz
+            5. listonlinequizzes - List all quizzes fro the Online Repository
+            6. importonlinequiz <quiz name> - 
+            7. uploadquizonline <quiz name> - 
+            8. help - To view this menu again for a list of commands
+
+            """))
+  quick_fire_bridge()
 
 
 def main(option=None):
@@ -255,6 +275,8 @@ def main(option=None):
       option = raw_input(green('\n\tWhich quiz would you like to upload? '))
       print blue('\n\t\tLoading.....\n')
       quick_fire.do_upload_quiz(option)
+    elif option == 'help':
+      help()
   except:
     print red('unknown option: \n') + option
     sys.exit(1)
