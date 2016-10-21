@@ -7,12 +7,6 @@ This is a quiz console application that presents a quiz to a user and a score is
 
 ##The required commands for the application were:
 
-#Command	Argument	Explanation
-quiz list	None	List of all the available quizzes in your library
-quiz import	<path_to_quiz_JSON>	Import a new quiz from a JSON file
-quiz take	<quiz_name>	Start taking a new quiz
-#The following requirements were also highlighted
-
 1.When a user takes a quiz he gets a score based on the answers he got right
 
 2.Timing can be added to quiz as a parameter in the JSON
